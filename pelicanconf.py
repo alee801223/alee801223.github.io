@@ -8,6 +8,8 @@ SITEURL = ''
 
 PATH = 'content'
 
+THEME = "bulrush"
+
 TIMEZONE = 'Asia/Taipei'
 
 DEFAULT_LANG = 'en'
