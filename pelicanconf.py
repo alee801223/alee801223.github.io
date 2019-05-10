@@ -8,13 +8,11 @@ SITEURL = ''
 
 PATH = 'content'
 
-THEME = 'E:\pelican_dev\pelican-themes'
+THEME = 'pelican-themes/pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
-PLUGIN_PATHS = ['E:\pelican_dev\pelican-plugins']
-PLUGIN = ['i18n_subsites']
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGIN = ['i18n_subsites', 'assets']
 I18N_TEMPLATES_LANG = 'en'
-
-
 
 TIMEZONE = 'Asia/Taipei'
 
@@ -40,4 +38,4 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
