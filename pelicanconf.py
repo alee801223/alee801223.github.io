@@ -14,6 +14,8 @@ PLUGIN_PATHS = ['pelican-plugins']
 PLUGIN = ['i18n_subsites', 'assets']
 I18N_TEMPLATES_LANG = 'en'
 
+BOOTSTRAP_THEME = 'solar'
+
 TIMEZONE = 'Asia/Taipei'
 
 DEFAULT_LANG = 'en'
