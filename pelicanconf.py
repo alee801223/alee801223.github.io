@@ -8,7 +8,13 @@ SITEURL = ''
 
 PATH = 'content'
 
-THEME = "bulrush"
+THEME = 'E:\pelican_dev\pelican-themes'
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+PLUGIN_PATHS = ['E:\pelican_dev\pelican-plugins']
+PLUGIN = ['i18n_subsites']
+I18N_TEMPLATES_LANG = 'en'
+
+
 
 TIMEZONE = 'Asia/Taipei'
 
